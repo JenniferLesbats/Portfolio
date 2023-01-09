@@ -15,94 +15,365 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <link rel="stylesheet" href="css/projets.css">
+        <script src="js/scripts.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     </head>
     <body id="page-top">
-        <!-- Navigation-->
+        <!-- Navigation de la page projets-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top " id="mainNav">
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand " href="#page-top">Accueil</a>
+                <a class="navbar-brand  text-uppercase" href="index.html#page-top">Accueil</a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse " id="navbarResponsive">
                     <ul class="navbar-nav ms-auto ">
-                        <li class="nav-item"><a class="nav-link" href="index.html#about">Présentation</a></li>
+                        <li class="nav-item"><a class="nav-link " href="index.html#about">Présentation</a></li>
                         <li class="nav-item"><a class="nav-link" href="index.html#projects">Projets</a></li>
+                        <li class="nav-item"><a class="nav-link" href="projets.html#ingénierie">Ingénierie</a></li>
+                        <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
                         <li class="nav-item"><a class="nav-link" href="index.html#signup">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <section class="section-projets " id="projets">
+        <!--Présentation des projets-->
+        <section class="section-projets  " id="ingénierie">
+            <div class="container  justify-content-center " id="container-projet">
+                 <hr class="text-white  mt-5">
+                 <h2 class=" text-white  text-center ">Ingénierie : plus de précisions sur la création de mes projets</h2>
+                <hr class="text-white ">
+                 <div class=" d-flex my-5 align-items-center justify-content center   ">
+                     <div class="justify-content-center align-items-center ">
+                         <h5 class="text-white px-5 mb-5">Les projets présentés sur cette page ont été réalisés au cours de mon master Conception de Ressources Numériques Pédagogiques</h5 >
+                         <h5 class="text-white px-5 mb-5">Ils m'ont permis de développer mes compétences pédagogiques et techniques de manière individuelle et collective</h5>
+                         <h5 class="text-white px-5 mb-5">Allier pédagogie et numérique pour créer des ressources cohérentes et pertinentes</h5>
+                         <div id="carouselExampleSlidesOnly" class="carousel slide w-50 px-5 mb-5 text-center " data-bs-ride="carousel">
+                             <div class="carousel-inner ">
+                                 <div class="carousel-item active " data-bs-interval="2000">
+                                     <img src="assets/adobe-illustrator-5977785_640.jpg" class="d-block w-100" alt="logo Adobe Illustrator">
+                                 </div>
+                                 <div class="carousel-item" data-bs-interval="2000">
+                                     <img src="assets/premiere-1065489_640.jpg" class="d-block w-100" alt="logo Adobe Premiere">
+                                 </div>
+                                 <div class="carousel-item" data-bs-interval="2000">
+                                     <img src="assets/photoshop-1065296_640.jpg" class="d-block w-100" alt="logo Adobe Photoshop">
+                                 </div>
+                                 <div class="carousel-item" data-bs-interval="2000">
+                                     <img src="assets/img/logo%20camtasia.png" class="d-block w-300" alt="logo Camtasia">
+                                 </div>
+                                 <div class="carousel-item" data-bs-interval="2000">
+                                     <img src="assets/audacity.png" class="d-block w-100" alt="logo Audacity">
+                                 </div>
+                                 <div class="carousel-item" data-bs-interval="2000">
+                                     <img src="assets/html.png" class="d-block w-100" alt="logo HTML5">
+                                 </div>
+                                 <div class="carousel-item" data-bs-interval="2000">
+                                     <img src="assets/css.png" class="d-block w-300" alt="logo CSS3">
+                                 </div>
+                                 <div class="carousel-item" data-bs-interval="2000">
+                                     <img src="assets/img/bootstrap-logo-png-bootstrap-1024.png" class="d-block w-300" alt="logo Boostrap">
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
 
-            <div class="container-fluid px-4 px-lg-5 ">
-                <h2 class="presentation text-white mb-5">Mes projets en détails</h2>
-                <div class="row gx-4 gx-lg-5 justify-content-center">
+                     <div>
+                         <img class="img-fluid w-100 mb-5  align-items-center" src="assets/img/pexels-ricardo-esquivel-4011762.jpg "  alt="image avec plein d'outils numériques : ordinateurs, appareils photo, écouteurs, caméra, micro" />
+                     </div>
 
-                    <div class="col-lg-10 mb-5 ">
-
-                        <h5 class="text-white px-5 mb-4">
-                            Les projets présentés sur cette page ont été réalisés au cours de mon master Conception de Ressources Numériques Pédagogiques
-                        </h5 >
-                        <h5 class="text-white px-5 mb-4">Ils m'ont permis de développer mes compétences pédagogiques et techniques de manière individuelle et collective</h5>
-                        <hr class="text-white">
-
-
-                    </div>
-                </div>
-                <!-- <img class="img-fluid" src="assets/img/bg-masthead.jpg" alt="..." />-->
+                 </div>
             </div>
         </section>
-        <div class="containeur ">
-            <div class="explication_projet1 text-black   flex-column" >
-                <h1 class="text-center" id="projets_conquete_mars">LA CONQUETE DE MARS</h1>
-                <div class="card-group mx-5 ">
-                    <div class="card mx-3">
-                        <img src="assets/img/affiche%20podcast%20copie.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <audio controls>
-                                <source src="horse.mp3" type="audio/mpeg">
+        <!--Conteneur de tous les projets-->
+        <div class="container-fluid flex-column  " id="projets_details">
+            <!--Conteneur projet 1 : la conquête de Mars-->
+            <div class=" container-fluid border  text-black justify-content-center explication_projet1 bg-light " id="mars" >
+                <!--titre-->
+                <h1 class="text-center my-5 fw-bold  " id="projets_conquete_mars">LA CONQUÊTE DE MARS</h1>
+                <hr class="mb-5">
+                <!--livrables-->
+                <div class="card-group    ">
+                    <div class="row justify-content-center ">
+                        <!--Capsule vidéo-->
+                        <div class="card col-sm-5 mx-3 mb-4 ">
+                            <div class="ratio ratio-16x9 mt-3 ">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/sRB4Qjh7cPo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Mars les caractéristiques</h5>
+                                <p class="card-text">Une capsule vidéo pour connaître la planète Mars</p>
+                                <p class="card-text"><small class="text-muted">Réalisée avec Adobe Premiere Pro, Adobe Illustrator et Adobe After Effects</small></p>
+                            </div>
+                        </div>
+                        <!--tutoriel-->
+                        <div class="card col-sm-5 mx-3 mb-4 ">
+                            <img src="assets/img/explore%20Mars.jpg" class="card-img-top mt-3" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Explore Mars</h5>
+                                <p class="card-text">Un tutoriel vidéo pour explorer Mars grâce à esri</p>
+                                <p class="card-text"><small class="text-muted">Réalisé avec Camtasia</small></p>
+                            </div>
+                        </div>
+                        <!--infographie-->
+                        <div class="card col-sm-5 mx-3 mb-4 ">
+                            <img src="assets/img/Infographie%20Conquête%20de%20Mars.jpg" class="card-img-top mt-3" alt="image de Mars avec des informations autour" id="infographie">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">La conquête de mars</h5>
+                                <p class="card-text">Une infographie reprenant les informations essentielles</p>
+                                <p class="card-text"><small class="text-muted">Réalisée avec Adobe Illustrator</small></p>
+                            </div>
+                        </div>
+                        <!--podcast-->
+                        <div class="card col-sm-5 mx-3 mb-4 ">
 
-                            </audio>
-                            <h5 class="card-title">Les enjeux de la conquête de Mars</h5>
-                            <p class="card-text">Podcast n°1 de la série "Espace"</p>
-                            <p class="card-text"><small class="text-muted">Réalisé avec Audacity et Adobe Photoshop </small></p>
+                            <img src=" assets/img/AffichePodcastLesenjeuxDeMars1.jpg"  class=" card-img-top mt-3 " alt="cosmonaute qui attrape Mars avec un lasso" id="affichePodcast">
+
+                            <div class="card-body mx-0">
+                                <audio controls class="w-100 mb-4">
+                                    <source src="assets/Podcast_Enjeux_Mars.mp3" type="audio/mpeg">
+
+                                </audio>
+                                <h5 class="card-title fw-bold">Les enjeux de la conquête de Mars</h5>
+                                <p class="card-text">Podcast n°1 de la série "Espace"</p>
+                                <p class="card-text"><small class="text-muted">Réalisé avec Audacity et Adobe Photoshop </small></p>
+
+
+                            </div>
                         </div>
-                    </div>
-                    <div class="card mx-3">
-                        <div class="ratio ratio-16x9">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/NnKomM6QZEs" title="YouTube video player" frameborder="0" 
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Le Soleil, une vie, un destin</h5>
-                            <p class="card-text">Vidéo libre sur le thème du Soleil</p>
-                            <p class="card-text"><small class="text-muted">Réalisée avec Adobe Premiere Pro</small></p>
-                        </div>
-                    </div>
-                    <div class="card mx-3">
-                        <img src="assets/img/explore%20Mars.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Explore Mars</h5>
-                            <p class="card-text">Un tutoriel vidéo pour explorer Mars grâce à esri</p>
-                            <p class="card-text"><small class="text-muted">Réalisé avec Camtasia</small></p>
+                        <!--vidéo libre-->
+                        <div class="card col-sm-5 mx-3 mb-4 ">
+                            <div class="ratio ratio-16x9 mt-3 ">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/BpYCPkXb1JY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Le Soleil, une vie, un destin</h5>
+                                <p class="card-text">Vidéo libre sur le thème du Soleil</p>
+                                <p class="card-text"><small class="text-muted">Réalisée avec Adobe Premiere Pro</small></p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="resume_projet1 mx-5 my-2">
+                <!--résumé-->
+                <div class="d-inline-flex align-items-center flex-column ">
 
-                    <!--<div class="spinner"></div>-->
-
-                    <h4 class="mx-5 my-5">Un projet individuel qui me permet de mobiliser des compétences sur la suite Adobe pour l'édition vidéo et la création d'images. Une mobilisation d'Audacity pour travailler sur le son et un travail
+                    <h4 class="mx-5 my-5 ">Un projet individuel qui me permet de mobiliser des compétences sur la suite Adobe pour l'édition vidéo et la création d'images. Une mobilisation d'Audacity pour travailler sur le son et un travail
                         pédagogique sur la construction d'une séquence, le découpage en séances et la mise à disposition de grains adéquats à chaque moment d'apprentissage. </h4>
-                    <a class=" boutonn btn btn-black" href="index.html#index_conquete_mars" role="button">Retour</a>
+                    <a class=" boutonn btn btn-black mb-5" href="index.html#index_conquete_mars" role="button">Retour</a>
                 </div>
+
             </div>
+            <!--Conteneur projet 2 : modéliser un objet 3D-->
+            <section class="section-projets border " id="ingénierie2">
+                <div class="container-fluid  justify-content-center " id="container-projet2">
+                    <div class="text-center     " >
+                        <h1 class="text-center mt-5 fw-bold">MODÉLISER UN OBJET 3D</h1>
+                        <p class=" sousTitreFusion fs-4 mb-5 " >Une séquence pédagogique pour débuter sur Fusion 360</p>
+                        <hr>
+                    </div>
+                    <div class=" d-flex mx-5 align-items-center justify-content center   ">
+                        <div class="mx-5 ">
+                            <p class="mt-5"><strong>Projet individuel - Master 1 - Avril 2022</strong></p>
+                            <p class="fs-5  "><p class="fs-5 "><strong>LA DEMANDE :</strong><br>
+
+                                    Élaborer une séquence pédagogique
+
+                                et créer les ressources à intégrer dans cette séquence
+                            </p>
+                            <p class="fs-5 "><strong>LE PUBLIC :</strong><br>
+                                Lycéens de 1ère  STD2A
+                                (Sciences et Technologies du Design et des Arts Appliqués)
+                            </p>
+                            <br>
+                            <h4 class="fw-bold">L'aspect pédagogique</h4>
+                            <p class="fs-5">Ce projet à développer mes compétences dans la création d'un scenario pédagogique qui ne soit pas qu'un enchaînement de séances sans liens.
+                                 <br>
+                                En prenant en compte le référentiel j'ai proposé d'appréhender les concepts de la CAO et de l'impression 3D tout au long de la construction d'un micro-projet fait sur le logiciel Fusion 360.
+                                L'apprenant devait réaliser une modélisation 3D d'un objet simple. Après une évaluation par les pairs et l'enseignant, quelques projets seraient retenus
+                            pour être imprimés en 3D dans un fablab. Cette sortie scolaire visait à faire le lien avec des acteurs du monde professionnel. </p>
+                            <p class="fw-bold fs-5">Une séquence dans laquelle l'apprenant est au coeur du processus de manière active pour favoriser l'engagement.</p>
+                            <br>
+                            <h4 class="fw-bold">L'aspect technique</h4>
+                            <p class="fs-5">La règle : créer des ressources dans un format pertinent et les intégrer au bon endroit pour servir l'apprentissage. Un diaporama pour le transmissif, des capsules vidéos
+                                pour la découverte de concepts, un tutoriel pour aider à la pratique de l'outil, un learningApp pour remobiliser les connaissances.
+                                </p>
+                            <p class="fw-bold fs-5">Mobilisation de Camtasia, Google Slides, PowerPoint, LearningApp : un premier pas dans les outils de conception de ressources numériques pédagogiques</p>
+                        </div>
+
+
+                    </div>
+                    <div class="genially mt-5 mb-5 ms-5 me-5">
+
+                        <div class="me-4 mb-3" style="width: 100%;"><div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0; ">
+                            <iframe title="Modéliser un objet 3D" frameborder="0" width="600" height="340" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                            src="https://docs.google.com/presentation/d/e/2PACX-1vQaj_B1qDpcdJrDVduJbZVnf3ClXnNkwVE0uI7ZveesQo-TvUO1poEdu2a4pN3d740OCwfZQ_Wf2cLB/embed?start=true&loop=true&delayms=3000"
+                            type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe>
+                        </div>
+                        </div>
+                        <div class="me-4 mb-3" style="width: 100%;"><div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0; ">
+                            <iframe title="Modéliser un objet 3D" frameborder="0" width="600" height="340" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                            src="https://view.genial.ly/62613628e28ae1001665bf2e"
+                            type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="boutonFusion ">
+                    <a class=" boutonn btn btn-black  mb-5 mt-5" href="index.html#fusion" role="button">Retour</a>
+                    </div>
+                    </div>
+            </section>
+            <!--Conteneur projet 3 : formation Wordpress-->
+            <section class="section-projets border bg-light " id="ingenierie3">
+                <div class="container-fluid  justify-content-center  " id="container-projet3">
+                    <div class="text-center     " >
+                        <h1 class="text-center mt-5 fw-bold">FORMATION WORDPRESS</h1>
+                        <p class=" sousTitreFusion fs-4 mb-5 " >Une collaboration avec un fablab</p>
+                        <hr>
+                    </div>
+                    <div class=" d-flex mx-5 align-items-center justify-content center   ">
+                        <div class="mx-5 ">
+                            <p class="mt-5"><strong>Projet collectif - Master 1 - Avril 2022</strong></p>
+                            <p class="fs-5  "><p class="fs-5 "><strong>LA DEMANDE :</strong><br>
+
+                            Construire une formation Wordpress
+                        </p>
+                            <p class="fs-5 "><strong>LE PUBLIC :</strong><br>
+                               Artisans et commerçants
+                            </p>
+                            <br>
+                            <h4 class="fw-bold">L'aspect pédagogique</h4>
+                            <p class="fs-5">Ce projet a été réalisé en groupe de 3. La problématique était de fournir un programme de formation WordPress pour des adhérents d'un fablab.
+                                Les apprenants étaient majoritairement des artisans
+                            commerçants désireux de construire leur propre site Internet et ayant peu de temps.
+                                <br>
+                                Nous avons utilisé le modèle ADDIE. Les parties Analyse des besoins et Design ont été réalisé en groupe.
+                                Le Développement a été réalisé individuellement, je suis intervenue sur le module Elementor.
+                                Le fablab a pris en charge l'implémentation sur le site internet en accès privé.
+                                <br>
+                                De notre côté, nous avons mis à disposition l'ingénierie pédagogique et les ressources via Google drive.
+                            </p>
+                            <br>
+                            <h4 class="fw-bold">L'aspect technique</h4>
+                            <p class="fs-5">Une attention particulière a l'élaboration de ressources qui s'adaptent au public cible. Une mise à disposition de tutoriels sous la forme vidéo et écrite
+                                afin de faciliter l'apprentissage, et des capsules vidéos qui permettent d'obtenir un résultat opérationnel rapidement.
+                            </p>
+                            <p class="fw-bold fs-5">Mobilisation de Camtasia, Google Slides, Suite Office, Trello, Zoom. </p>
+                            <p class="fw-bold fs-5">Un exercice riche en développement de compétences en gestion de projet. Le choix était libre d'avoir un commanditaire fictif ou
+                                d'en trouver un dans le domaine associatif. Dans une démarche de rapprochement avec le monde professionnel, j'ai personnellement démarché le fablab. </p>
+
+                        </div>
+                    </div>
+                    <div class="container-fluid">
+                    <div class="row d-inline-flex mt-5 mb-5">
+                        <img src="assets/img/elemntor1.jpg" class="img-fluid col-sm-4" alt="image noire et blanche avec logo Elementor et les objectifs du module">
+                        <img src="assets/img/elementor2.jpg" class="img-fluid col-sm-4" alt="image exemple des étapes de la séance 2 ">
+                        <img src="assets/img/elementor3.jpg" class="img-fluid col-sm-4 " alt="2 images screens d'un tutoriel Elementor">
+                    </div>
+
+                    </div>
+                    <div class="boutonFusion ">
+                        <a class=" boutonn btn btn-black  mb-5 mt-5" href="index.html#wordpress" role="button">Retour</a>
+                    </div>
+                </div>
+            </section>
+            <!--Conteneur projet 4 : Finley Adventures-->
+            <section class="section-projets border  " id="ingenierie4">
+                <div class="container-fluid  justify-content-center  " id="container-projet4">
+                    <div class="text-center     " >
+                        <h1 class="text-center mt-5 fw-bold">FINLEY ADVENTURES</h1>
+                        <p class=" sousTitreFusion fs-4 mb-5 " >Un mini-jeu sur Unity 360</p>
+                        <hr>
+                    </div>
+                    <div class=" d-flex mx-5 align-items-center justify-content center   ">
+                        <div class="mx-5 ">
+                            <p class="mt-5"><strong>Projet individuel - Master 1 - Avril 2022</strong></p>
+                            <p class="fs-5  "><p class="fs-5 "><strong>LA DEMANDE :</strong><br>
+
+                            Construire un premier mini-jeu jouable sur Unity 360
+                        </p>
+                            <br>
+                            <h4 class="fw-bold">Unity 360</h4>
+                            <p class="fs-5">Une première approche avec un moteur de jeu vidéo. Assets, Inspector, Scripts, gameObjects, Collider, Animator ... Tout un nouveau vocabulaire et des
+                                perspectives d'innovation en termes de création de ressources pédagogiques.
+                            </p>
+                            <br>
+                            <h4 class="fw-bold">C#</h4>
+                            <p class="fs-5">Initiation à un nouveau langage de programmation via l'éditeur de code Visual Studio. L'occasion de traiter des bases de programmation en posture active.
+                            </p>
+
+                            <p class="fw-bold fs-5">Une expérience ardue qui permet d'avoir un regard différent sur le jeu vidéo tant du côté objectifs que du côté culturel. Grâce à ce projet,
+                            je me suis familiarisée avec des notions de modélisation, d'animation, de programmation,  tout un envers du décor qui me permettra d'interagir plus efficacement avec
+                            des experts de cet univers dans mon futur emploi.</p>
+
+                        </div>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="row d-inline-flex mt-5 mb-5 justify-content-center">
+                            <img src="assets/img/codeFinley1.png" class="img-fluid col-sm-6" alt="image avec 3 colonnes avec des codes en C#">
+                            <img src="assets/img/objetVirtuel.jpg" class="img-fluid col-sm-6" alt="4 miniature du jeu vidéo">
+
+                        </div>
+
+                    </div>
+                    <div class="boutonFusion ">
+                        <a class=" boutonn btn btn-black  mb-5 mt-5" href="index.html#finley" role="button">Retour</a>
+                    </div>
+                </div>
+            </section>
+            <!--Conteneur projet 5 : boîte à constellations-->
+            <section class="section-projets border bg-light " id="ingenierie5">
+                <div class="container-fluid  justify-content-center  " id="container-projet5">
+                    <div class="text-center     " >
+                        <h1 class="text-center mt-5 fw-bold">FUSION 360</h1>
+                        <p class=" sousTitreFusion fs-4 mb-5 " >Modélisation d'une boîte à constellations</p>
+                        <hr>
+                    </div>
+                    <div class=" d-flex mx-5 align-items-center justify-content center   ">
+                        <div class="mx-5 ">
+                            <p class="mt-5"><strong>Projet individuel - Master 1 - Avril 2022</strong></p>
+                            <p class="fs-5  "><p class="fs-5 "><strong>LA DEMANDE :</strong><br>
+
+                            Modéliser un objet 3D
+                        </p>
+                            <br>
+                            <h4 class="fw-bold">Fusion 360</h4>
+                            <p class="fs-5">Un projet ouvert au thème de son choix. J'ai choisi de modéliser une boîte à constellations dans laquelle on peut introduire
+                                des fiches représentant une constellation. L'idée était de créer un objet d'apprentissage imprimable en 3D.
+                                <br>
+                                Pour cet objet, j'ai mobilisé les esquisses, les extrusions,
+                                les congés, la création de différents composants, l'utilisation de plans milieu et miroir et des liaisons pour la charnière.
+                                <br>
+                                Pour une meilleure impression, j'ai importé mes fichiers en STL dans Meshmixer pour faire apparaître les supports et les consolider.
+                            </p>
+                            <p class="fs-5">Ensuite, l'étape des rendus. Très gratifiante, elle donne vie à l'objet, j'ai choisi le pin pour la base et le couvercle, et le laiton pour donner aux fiches
+                                un aspect inspiré des vieux instruments d'astronomie.
+                            </p>
+
+                            <p class="fw-bold fs-5">Un projet assez addictif qui donne une fois de plus des idées dans la construction de supports pédagogiques.</p>
+
+                        </div>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="row d-inline-flex mt-5 mb-5 justify-content-center">
+                            <img src="assets/img/bac0.jpg" class="img-fluid col-sm-6 mb-2" alt="images d'un télescope, d'un pot à peinture et d'une bougie chauffe-plat">
+                            <img src="assets/img/bac1.jpg" class="img-fluid col-sm-6 mb-2" alt="images détaillant les composants de la boîte">
+                            <img src="assets/img/bac2.jpg" class="img-fluid col-sm-6 mb-2" alt="image avec les fonctionnalités utilisées du logiciel">
+                            <img src="assets/img/bac3.jpg" class="img-fluid col-sm-6 mb-2" alt="image des supports créés par MeshMixer">
+                            <img src="assets/img/bac4.jpg" class="img-fluid col-sm-8 mb-2" alt="gallery images de boite en bois avec fiches en laiton percées">
+
+                        </div>
+
+
+                    </div>
+                    <div class="boutonFusion ">
+                        <a class=" boutonn btn btn-black  mb-5 mt-5" href="index.html#constellation" role="button">Retour</a>
+                    </div>
+                </div>
+            </section>
+
         </div>
-
-
-
 
         <!-- Signup-->
         <section class="signup-section" id="signup">
@@ -188,6 +459,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <script src="jsperso.js"></script>
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <!-- * *                               SB Forms JS                               * *-->
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->

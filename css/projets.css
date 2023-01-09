@@ -1,14 +1,128 @@
-#projets{
+/*Présentation des projets*/
+#ingénierie{
     padding-top: 10rem;
-    background-image: url("../assets/img/image-projets.jpg");
-
+    /*background-image: url("../assets/img/image-projets.jpg");*/
+    background-color: #101010;
     background-repeat: no-repeat;
     background-size: cover;
 }
+#ingénierie .carousel-item img{
+    width: 100px!important;
+}
+/*agrandissement images*/
+@media (max-width: 1024px){
+    #ingénierie .d-flex{
+
+        flex-direction: column;
+    }
+}
+
+/*Conteneur de tous les projets*/
+#projets_details{
+
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    padding-left: 5rem;
+    padding-right: 5rem;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-color: rgba(220, 220, 220, 0.63);*/
+    background-color: white;
+}
+
+/*Conteneur projet 1 : la conquête de Mars*/
+#mars{
+    margin-top: 5rem;
+
+}
+
+#affichePodcast{
+    cursor: pointer;
+}
+
+#infographie{
+    cursor: pointer;
+}
+/*Conteneur projet 2 : modéliser un objet 3D*/
+#ingénierie2{
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    background-color: rgba(100, 161, 157, 0.42);
+
+    /*background-image: url("../assets/img/image-projets.jpg");*/
+}
 
 
+@media (max-width: 1024px){
+    #ingénierie2 .d-flex{
 
-.podcast{
+        flex-direction: column;
+
+    }
+}
+@media (max-width: 1440px){
+    #ingénierie2 .d-flex{
+
+        flex-direction: column;
+    }
+}
+@media (max-width: 1024px){
+    #ingénierie2 .d-flex iframe{
+
+        width: 300px;
+        height: 150px;
+        justify-content: start;
+
+
+    }
+}
+@media (max-width: 1440px){
+    #ingénierie2 .d-flex iframe{
+
+        width: 300px;
+        height: 150px;
+        justify-content: start;
+    }
+}
+
+.genially{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 1440px){
+    .genially{
+
+        flex-direction: column;
+    }
+}
+
+.boutonFusion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sousTitreFusion{
+    color: rgba(0, 0, 0, 0.84);
+}
+
+/*Conteneur projet 3 : wordpress*/
+#ingenierie3{
+    margin-top: 5rem;
+}
+
+/*Conteneur projet 4 : wordpress*/
+#ingenierie4 {
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    background-color: rgba(100, 161, 157, 0.42);
+}
+/*.podcast{
 
     justify-content: center;
 
@@ -64,38 +178,33 @@ display: flex;
     width: 20rem;
 }
 
+*/
 
-.containeur{
-    background-color: gainsboro;
-    display: flex;
-    justify-content: center;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
 
-}
-/*.spinner{
-    width: 200px;
-    height: 200px;
-    animation: Morph 5000ms infinite;
-}
 
-@keyframes Morph {
-    0%,
-    100%{
-        border-radius: 50%;
-        transform: rotate(0deg);
-        background-color: pink;
-    }
-    50%{
-        border-radius: 0%;
-        transform: rotate(180deg);
-        background-color: lightseagreen;
-    }
-}
 
- */
 
-.presentation{
+/*.presentation{
 
     padding-left: 9.5rem;
 }
+
+.carte_presentation{
+    display: flex;
+    flex-wrap: wrap;
+}*/
+
+
+
+
+/*.conteneurIframe{
+    position: relative;
+}
+.conteneurIframe iframe{
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+}
+

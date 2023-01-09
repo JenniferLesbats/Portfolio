@@ -643,6 +643,7 @@ progress {
   margin-right: auto;
   margin-left: auto;
 
+
 }
 
 @media (min-width: 576px) {
@@ -678,6 +679,7 @@ progress {
   margin-top: calc(-1 * var(--bs-gutter-y));
   margin-right: calc(-0.5 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
+
 
 
 }
@@ -753,6 +755,7 @@ progress {
 .col-4 {
   flex: 0 0 auto;
   width: 33.33333333%;
+  border: 1px solid lightseagreen;
 }
 
 .col-5 {
@@ -1383,6 +1386,7 @@ progress {
   .col-lg-3 {
     flex: 0 0 auto;
     width: 25%;
+
   }
 
   .col-lg-4 {
@@ -4171,7 +4175,7 @@ textarea.form-control-lg {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 1.55rem;
   text-decoration: none;
   white-space: nowrap;
 }
@@ -4203,7 +4207,7 @@ textarea.form-control-lg {
 
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
-  font-size: 1.25rem;
+  font-size: 1.55rem;
   line-height: 1;
   background-color: transparent;
   border: 1px solid transparent;
@@ -4630,12 +4634,12 @@ textarea.form-control-lg {
   position: relative;
   display: flex;
   flex-direction: column;
-  min-width: 0;
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
+
 }
 .card > hr {
   margin-right: 0;
@@ -4658,11 +4662,15 @@ textarea.form-control-lg {
 .card > .card-header + .list-group,
 .card > .list-group + .card-footer {
   border-top: 0;
+
 }
 
 .card-body {
   flex: 1 1 auto;
   padding: 1rem 1rem;
+
+
+
 }
 
 .card-title {
@@ -11573,7 +11581,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
- background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 100%, #000 75%), url("../assets/img/bgPhotoshop.jpg");
+ background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%, #000 75%), url("../assets/img/bgPhotoshop.jpg");
 
   background-position: center;
   background-repeat: no-repeat;
@@ -11595,7 +11603,7 @@ body {
 
 }
 .masthead h2, .masthead .h2 {
-  max-width: 20rem;
+  max-width: 30rem;
   font-size: 2rem;
   background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
   -webkit-text-fill-color: transparent;
@@ -11621,18 +11629,18 @@ body {
     letter-spacing: 0.8rem;
   }
   .masthead h2, .masthead .h2 {
-    max-width: 30rem;
-    font-size: 1.75rem;
+    max-width: 40rem;
+    font-size: 2.0rem;
   }
 }
 
 .about-section {
-  padding-top: 10rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   /*background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);*/
   background-image: url("../assets/img/bg-mastheadOpacité.jpg");
+  background-size: cover;
 
-
-  height: 100vh;
 }
 .about-section p {
   margin-bottom: 5rem;
@@ -11764,4 +11772,328 @@ body {
 
 .carte_presentation .card-header{
   color: #64a19d;
+}
+
+#presentation{
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+}
+
+.hrCouleur{
+  color: #64a19d;
+
+}
+
+.cardPresentation{
+  background: rgba(255 , 255,255,0.75);
+  border-radius: 30px;
+}
+
+.alliance{
+  color:#64a19d !important;
+}
+
+.coeur{
+  color:#e0e0e0 !important;
+}
+
+
+/*.bienvenue{
+
+display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+  background-color: #101010;
+  height: 100vh;
+}*/
+
+.bienvenue {
+
+  margin: 0 auto 0;
+  padding: 100px 20px 0;
+  background-color: #101010;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #e0e0e0;
+  text-transform: uppercase;
+
+}
+ .textportfolio{
+   font-size: 50px;
+   margin-bottom: 5rem;
+   font-weight: bolder;
+ }
+
+.textprojets{
+  font-size: 35px;
+}
+
+.textcompetences{
+  font-size: 35px;
+}
+
+.textparcours{
+  font-size: 35px;
+}
+
+
+/*.bienvenue p{
+
+  text-transform: uppercase;
+  color: #e0e0e0;
+  font-weight: 900;
+  color: transparent;
+  font-size: 0px;
+}
+
+.bienvenue p span{
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  font-size: clamp(10px, 5vw, 50px);
+}
+
+.bienvenue p span::after{
+  content:"";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transform: translateX(-100%);
+
+}
+
+.bienvenue p:nth-child(1){
+  font-weight: 600;
+  animation: txt-appearance 0s 1s forwards infinite ;
+}
+.bienvenue p:nth-child(2){
+  font-weight: 300;
+  animation: txt-appearance 0s 1.25s forwards infinite ;
+}
+
+.bienvenue p:nth-child(1) span::after{
+  background: #1cabc4;
+  animation: slide-in 0.75s ease-out forwards infinite ,
+  slide-out 0.75s 1s ease-out forwards ;
+
+}
+.bienvenue p:nth-child(2) span::after{
+  background: rgba(188, 126, 187, 0.31);
+  animation: slide-in 0.75s 0.3s ease-out forwards infinite ,
+  slide-out 0.75s 1.3s ease-out forwards;
+}
+
+@keyframes slide-in {
+  100%{
+    transform: translateX(0%);
+  }
+
+}
+@keyframes slide-out {
+  100%{
+    transform: translateX(100%);
+  }
+
+}
+@keyframes txt-appearance {
+  100%{
+    color: #e0e0e0;
+  }
+
+}*/
+
+
+/*--------------------------------------------------------------
+# Skills
+--------------------------------------------------------------*/
+.skills .progress {
+  height: 50px;
+  display: block;
+  background: none;
+}
+
+.skills .progress .skill {
+  padding: 10px 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #2c4964;
+}
+
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.skills .progress-bar-wrap {
+  background: #fbeaf1;
+}
+
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #dd5a92;
+}
+
+/*--------------------------------------------------------------
+# Resume
+--------------------------------------------------------------*/
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #64a19d;
+  font-family: "Poppins", sans-serif;
+}
+
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #64a19d;
+  position: relative;
+}
+
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #2c4964;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+  font-size: 16px;
+  background: #e4ebf3;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 400;
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.resume .resume-item ul {
+  padding-left: 20px;
+}
+
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+}
+
+.resume .resume-item:last-child {
+  padding-bottom: 0;
+}
+
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #64a19d;
+}
+/*
+# Services
+  --------------------------------------------------------------*/
+
+.services .icon-box {
+  padding: 20px 15px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.2);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  text-align: center;
+  z-index: 1;
+}
+
+.services .icon-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 0;
+  transition: ease-in-out 0.3s;
+  z-index: -1;
+}
+
+.services .icon-box:hover::before {
+  background: #ffffff;
+  height: 100%;
+  border-radius: 0px;
+}
+
+.services .icon {
+  margin: 0 auto 30px auto;
+  padding-top: 10px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+
+.services .icon i {
+  font-size: 36px;
+  line-height: 1;
+  color: #fff;
+}
+
+.services .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.services .title a {
+  color: #111;
+}
+
+.services .description {
+  font-size: 15px;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+
+.services .icon-box:hover .title a,
+.services .icon-box:hover .description {
+  color: #fff;
+}
+
+.services .icon-box:hover .icon {
+  background: #fff;
+}
+
+.services .icon-box:hover .icon i {
+  color: #d43076;
+}
+
+@media (max-width: 768px) {
+  .services .icon-box::before {
+    bottom: 60%;
+  }
+}
+
+
+#mainNav{
+  font-size: 1.35rem;
 }
