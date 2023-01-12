@@ -11754,6 +11754,9 @@ body {
   color: black;
 }
 
+
+
+
 .boutonb:hover{
   background-color: #64a19d;
   color: black;
@@ -11797,7 +11800,35 @@ body {
   color:#e0e0e0 !important;
 }
 
+.boutonnnn{
+  display: flex;
+  align-items: center;
+  justify-content : center;
+  width: 150px;
+  height: 60px;
+  font-size: 0.8rem;
+  padding: 0 0 0 0;
+  border: 1px solid #101010;
+  color: #101010;
+  margin-top: 5rem;
+  margin-right: 5rem;
+}
 
+
+
+@media (max-width: 1024px) {
+  .haut-de-page-index{
+    justify-content: center!important;
+    padding: 0 0 0 0;
+
+
+  }
+
+  .boutonnnn{
+    margin-right: 0;
+  }
+
+}
 /*.bienvenue{
 
 display: flex;
@@ -12096,4 +12127,18 @@ display: flex;
 
 #mainNav{
   font-size: 1.35rem;
+}
+
+@media (max-width: 350px){
+  .textportfolio{
+
+    font-size: 2rem;
+  }
+  .textprojets, .textcompetences, .textparcours{
+    font-size: 1.5rem;
+
+  }
+  .bienvenue{
+    justify-content: center;
+  }
 }

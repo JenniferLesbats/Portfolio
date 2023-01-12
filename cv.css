@@ -21,11 +21,17 @@ height: 30vh;
 @media (max-width: 1024px){
     #aboutcv{
 
-        height: 80vh;
+        height: 100vh;
+    }
+    #aboutcv h1 {
+        font-size: 1.25rem;
+    }
 
-
+    #aboutcv p  {
+        font-size: 1rem;
     }
 }
+
 
 #aboutcv img{
     width: 250px;
@@ -57,4 +63,39 @@ height: 30vh;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
+}
+
+.boutonnnn{
+    display: flex;
+    align-items: center;
+    justify-content : center;
+    width: 150px;
+    height: 60px;
+    font-size: 0.8rem;
+    padding: 0 0 0 0;
+    border: 1px solid #101010;
+    color: #101010;
+    margin-top: 5rem;
+    margin-right: 5rem;
+}
+
+.haut-de-page{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 5rem;
+
+}
+
+@media (max-width: 1024px) {
+    .haut-de-page{
+        justify-content: center;
+        padding: 0 0 0 0;
+
+    }
+
+    .boutonnnn{
+        margin-right: 0;
+    }
+
 }

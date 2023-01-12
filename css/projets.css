@@ -17,6 +17,21 @@
     }
 }
 
+@media (max-width: 1024px){
+    #ingenierie3 {
+
+        margin-left: 0!important;
+    }
+}
+@media (max-width: 350px){
+    #ingénierie .carousel-item img{
+
+        width: 50px!important;
+    }
+}
+
+
+
 /*Conteneur de tous les projets*/
 #projets_details{
 
@@ -99,6 +114,7 @@
 
         flex-direction: column;
     }
+
 }
 
 .boutonFusion{
@@ -114,13 +130,76 @@
 /*Conteneur projet 3 : wordpress*/
 #ingenierie3{
     margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
-/*Conteneur projet 4 : wordpress*/
+/*Conteneur projet 4 : finley*/
 #ingenierie4 {
-    margin-top: 10rem;
+    margin-top: 5rem;
     margin-bottom: 5rem;
     background-color: rgba(100, 161, 157, 0.42);
+}
+
+/*Conteneur projet 5 : constellations*/
+#ingenierie5{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+#infographie:hover{
+    transform: scale(1.1);
+    z-index: 200;
+}
+
+#affichePodcast:hover{
+    transform: scale(1.1);
+    z-index: 200;
+}
+
+.boutonnn:hover{
+    background-color: #64a19d;
+    color: #101010;
+    font-weight: bold;
+
+}
+
+.boutonnn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 60px;
+    font-size: 0.8rem;
+    padding: 0 0 0 0;
+    background-color: #101010;
+}
+
+.boutonnnn{
+    display: flex;
+    align-items: center;
+    justify-content : center;
+    width: 150px;
+    height: 60px;
+    font-size: 0.8rem;
+    padding: 0 0 0 0;
+    border: 1px solid #101010;
+    color: #101010;
+}
+
+@media (max-width: 1024px) {
+    .haut-de-page-projets{
+        justify-content: center!important;
+        padding: 0 0 0 0;
+    }
+
+}
+
+@media (max-width: 425px) {
+    #projets_details{
+        padding-right: 1px;
+        padding-left: 1px;
+    }
+    
 }
 /*.podcast{
 
